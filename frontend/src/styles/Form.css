@@ -1,3 +1,11 @@
+/* body {
+  background-color: #4a4e69;
+} */
+
+h1 {
+  color: #4a4e69;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -29,8 +37,15 @@
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
+  margin-top: 40px;
 }
 
 .form-button:hover {
   background-color: #0056b3;
+}
+
+.form-text {
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
